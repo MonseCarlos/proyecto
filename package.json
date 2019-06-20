@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "browser": "Browser-sync start --server 'public' —files 'public'",
+    "json-server": "json-server --watch db.json",
+    "browser": "Browser-sync start --server './' —files '*.html'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Raquel Monserrat Carlos <raquel_monserrat@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "json-server": "^0.15.0"
   }
 }
