@@ -10,8 +10,8 @@ ul{
 }
 
 li{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 a{
@@ -28,9 +28,9 @@ header{
 }
 
 nav{
-    color : #000000;
-    background-color: rgba(255,255,255,.5);
-    float:center;
+    color : #ffffff;
+    float:right;
+    font: 100% sans-serif;
 }
 
 img{
@@ -44,15 +44,11 @@ img{
     margin:0 auto;
     height: 60px;
     margin: 0 0 0 -9px;
-    
+    display: block;
 }
 
 #lista-redes{
     float:right;
-}
-
-#logo-principal{
-    justify-content: left;
 }
 
 #image-slide{
@@ -60,9 +56,12 @@ img{
     width:100%;
 }
 
-#nav-perpetuo{
-    display: flex;
-    background-color: rgba(255,255,255,.5);
-    float:center;
+
+.caja{
+    display:block;
+    background-color: rgba(255,255,255,.1);
+    margin:0;
 }
+
+
 
